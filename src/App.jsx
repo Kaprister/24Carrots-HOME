@@ -1,5 +1,6 @@
 // import './App.css'
 
+import BackTopBtn from "./components/BackTopBtn"
 import ExploreService from "./components/ExploreService"
 import Footer from "./components/Footer"
 import HeroSection1 from "./components/HeroSection1"
@@ -23,6 +24,7 @@ function App() {
       <ExploreService/>
       <Newsletter/>
       <Footer/>
+      <BackTopBtn/>
     </>
   )
 }
