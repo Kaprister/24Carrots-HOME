@@ -6,7 +6,7 @@ function Footer() {
         <footer className=' bg-[#E9E4E0] flex flex-col gap-5 px-5 pb-16'>
             <section className=' flex gap-5 pt-20 pb-10 items-center pl-10'>
                 <div className=' w-1/3 flex flex-col gap-5 '>
-                    <div className=' flex flex-col w-[203px]'>
+                    <div className=' flex flex-col w-[220px]'>
                         <h1 className=' tracking-widest uppercase font-semibold text-[30px]'>24 Carrots</h1>
                         <p className=' tracking-wider text-center uppercase text-gray-400'>catering & events</p>
                     </div>

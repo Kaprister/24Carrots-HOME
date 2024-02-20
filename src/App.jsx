@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar"
 import Newsletter from "./components/Newsletter"
 import ServicesSection from "./components/ServicesSection"
 import VenueSection from "./components/VenueSection"
+import VenuesSlider from "./components/VenuesSlider"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <HeroSection2/>
       <HeroSection3/>
       <VenueSection/>
+      <VenuesSlider/>
       <ServicesSection/>
       <ExploreService/>
       <Newsletter/>
