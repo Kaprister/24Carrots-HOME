@@ -13,7 +13,7 @@ function HeroSection1() {
         >
             <source src="https://24carrots.com/wp-content/video/24carrtos-home-banner.mp4" type="video/mp4" />
         </video>
-        <h2 className=' absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-[70px] tracking-wider'>Simply the Finest</h2>
+        <h2 className=' absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-[27px] md:text-[70px] tracking-wider'>Simply the Finest</h2>
     </div>
   )
 }

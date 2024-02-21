@@ -3,8 +3,8 @@ import React from 'react'
 function HeroSection3() {
   return (
     <>
-        <section className=' flex gap-20 mt-20 mx-10'>
-            <div className=' w-1/2'>
+        <section className=' flex flex-col md:flex-row gap-20 mt-20 mx-10'>
+            <div className=' w-full md:w-1/2'>
                 <div className=' rounded-t-full overflow-hidden'>
                     <img
                         decoding="async"
@@ -16,8 +16,8 @@ function HeroSection3() {
                     />
                 </div>
             </div>
-            <div className=' flex flex-col justify-center gap-10 w-1/2'>
-                <h1 className=' font-bold text-green-900 text-[70px]'>
+            <div className=' flex flex-col items-center md:items-start justify-center gap-10 w-full md:w-1/2'>
+                <h1 className=' font-bold text-green-900 text-[70px] text-center md:text-start'>
                     Making Every<br/>
                     Experience<br/>
                     Magical
