@@ -22,8 +22,8 @@ function App() {
       <HeroSection3/>
       <VenueSection/>
       <VenuesSlider/>
-      <ServicesSection/>
       <ExploreService/>
+      <ServicesSection/>
       <Newsletter/>
       <Footer/>
       <BackTopBtn/>
