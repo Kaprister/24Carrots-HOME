@@ -14,7 +14,11 @@ function Newsletter() {
                         className=' rounded-3xl p-2 w-[70%] text-black text-center placeholder:text-[#d56231]'
                         id='email'
                     />
-                    <button className=' font-sans w-[30%] bg-[#9c4823] text-center uppercase hover:bg-[#b8562c] rounded-3xl'>sign up  <span className=''>→</span></button>
+                    <button className=' feature-btn flex justify-center items-center font-sans w-[30%] bg-[#9c4823] text-center uppercase hover:bg-[#b8562c] rounded-3xl'>sign up 
+                    <span className='arrow-animation'>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
+                    </span>
+                    </button>
                 </div>
                 <p className=' font-thin'>By clicking Sign Up you’re confirming that you agree with our Terms and Conditions.</p>
             </div>

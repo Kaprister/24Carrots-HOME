@@ -42,6 +42,7 @@ function VenuesSlider() {
                 >
                     {images.map((image, index) => (
                         <img
+                            key={index}
                             src={image}
                             alt='image'
                             className=' max-w-[45%] object-cover'

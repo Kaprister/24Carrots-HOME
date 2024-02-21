@@ -34,7 +34,11 @@ function HeroSection3() {
                         <p className=' font-sans font-extralight'>
                             The most important day of your life, is ours too. Your wedding should be the ultimate celebration of your relationship, and our team of experts guide you through the process, offering peace of mind and a remarkable experience.
                         </p>
-                        <button className=' font-sans flex gap-1 items-center justify-center uppercase bg-[#C15627] hover:bg-[#ec7b4a] transition-all text-white p-0 px-3 py-2 rounded-3xl'>LEARN MORE <span className=''>→</span></button>
+                        <button className='feature-btn  font-sans flex gap-1 items-center justify-center uppercase bg-[#C15627] hover:bg-[#ec7b4a] transition-all text-white p-0 px-3 py-2 rounded-3xl'>LEARN MORE 
+                            <span className='arrow-animation'>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
+                            </span>
+                        </button>
                     </div>
                 </div>
             </div>

@@ -11,3 +11,30 @@ body{
     font-family: "Playfair Display", serif;
     overflow-x: hidden;
 }
+
+.feature-btn {
+    position: relative;
+  }
+  
+  .arrow-animation {
+    position: relative;
+    transition: transform 0.5s ease;
+  }
+  .arrow-animation svg {
+      fill: white;
+  }
+  .feature-btn:hover .arrow-animation {
+      transform: translateX(7px);
+    }
+    
+    .arrow-animation-ser {
+    position: relative;
+    transition: transform 0.5s ease;
+    }
+    .arrow-animation-ser svg {
+    fill: #C15627;
+    }
+
+    .feature-btn:hover .arrow-animation-ser {
+        transform: translateX(7px);
+      }
