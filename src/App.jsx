@@ -9,6 +9,7 @@ import HeroSection3 from "./components/HeroSection3"
 import Navbar from "./components/Navbar"
 import Newsletter from "./components/Newsletter"
 import ServicesSection from "./components/ServicesSection"
+import TestimonialSec from "./components/TestimonialSec"
 import VenueSection from "./components/VenueSection"
 import VenuesSlider from "./components/VenuesSlider"
 
@@ -24,6 +25,7 @@ function App() {
       <VenuesSlider/>
       <ExploreService/>
       <ServicesSection/>
+      <TestimonialSec/>
       <Newsletter/>
       <Footer/>
       <BackTopBtn/>
